@@ -6,10 +6,10 @@
 </head>
 <body>
 
-<div>
-    <a href="index.html">Home</a>
-    <a href="tags.html">HTML Tags</a>
-    <a href="moby_dick.html">Moby Dick</a>
+<div style="text-align: right;">
+    <a href="index.html" style="text-decoration-line: none; color: blue;">Home</a>
+    <a href="tags.html" style="margin: 0 0 0 10px; text-decoration-line: none; color: blue;">HTML Tags</a>
+    <a href="moby_dick.html" style="margin-left: 10px; text-decoration-line: none; color: blue;">Moby Dick</a>
 </div>
 
 
@@ -40,14 +40,14 @@
         <th>Purpose</th>
     </tr>
     <tr>
-        <td><code>h1</code>&ndash;<code>h6</code></td>
-        <td>headings</td>
-        <td>include a heading (levels 1&ndash;6)</td>
+        <td style="padding: 10px;"><code>h1</code>&ndash;<code>h6</code></td>
+        <td style="padding: 10px;">headings</td>
+        <td style="padding: 10px;">include a heading (levels 1&ndash;6)</td>
     </tr>
     <tr>
-        <td><code>p</code></td>
-        <td>paragraph</td>
-        <td>include a paragraph of text</td>
+        <td style="padding: 10px;"><code>p</code></td>
+        <td style="padding: 10px;">paragraph</td>
+        <td style="padding: 10px;">include a paragraph of text</td>
     </tr>
     <tr>
         <td><code>table</code></td>
@@ -70,24 +70,39 @@
         <td>include a table data cell</td>
     </tr>
     <tr>
-        <td><code>header</code></td>
-        <td>header</td>
-        <td>specify a header for a document or section</td>
-    </tr>
-    <tr>
         <td><code>div</code></td>
         <td>division</td>
-        <td>define a division in the HTML page</td>
+        <td>define block-level section in document</td>
+    </tr>
+    <tr>
+        <td><code>header</code></td>
+        <td>header</td>
+        <td>label the page header</td>
     </tr>
     <tr>
         <td><code>ol</code></td>
         <td>ordered list</td>
-        <td>create an ordered list</td>
+        <td>list elements in numerical order</td>
     </tr>
     <tr>
         <td><code>ul</code></td>
         <td>unordered list</td>
-        <td>create an unordered list</td>
+        <td>list elements whose order doesn't matter</td>
+    </tr>
+    <tr>
+        <td><code>li</code></td>
+        <td>list item</td>
+        <td>include a list item (ordered or unordered)</td>
+    </tr>
+    <tr>
+        <td><code>blockquote</code></td>
+        <td>block quotation</td>
+        <td>shows formatted quotation</td>
+    </tr>
+    <tr>
+        <td><code>break</code></td>
+        <td>break</td>
+        <td>enter line break</td>
     </tr>
 </table>
 
@@ -140,22 +155,53 @@
         <td><img src="https://bit.ly/1MZAFuQ" alt="Michael Hartl"></td>
     </tr>
     <tr>
-        <td><code>span</code></td>
-        <td>span</td>
-        <td>group inline-elements</td>
-        <td><code>&lt;span&gt;elements&lt;/span&gt;</code></td>
-        <td><span>elements</span></td>
+        <td><code>code</code></td>
+        <td>code</td>
+        <td>format as source code</td>
+        <td>&lt;code&gt;table&lt;/code&gt;</td>
+        <td><code>table</code></td>
     </tr>
     <tr>
-        <td><code>li</code></td>
-        <td>list item</td>
-        <td>add an item to an (un)ordered list</td>
-        <td><code>&lt;ol&gt;&lt;li&gt;item&lt;/li&gt;&lt;/ol&gt;</code></td>
-        <td>
-            <ol>
-                <li>item</li>
-            </ol>
-        </td>
+        <td><code>span</code></td>
+        <td>span</td>
+        <td> define inline section in document</td>
+        <td><code>&lt;span&gt;Call me Ishmael.&lt;/span&gt;</code></td>
+        <td><span>Call me Ishmael.</span></td>
+    </tr>
+</table>
+
+<h2>Document tags</h2>
+
+<table>
+    <tr>
+        <th>Tag</th>
+        <th>Name</th>
+        <th>Purpose</th>
+    </tr>
+    <tr>
+        <td><code>html</code></td>
+        <td>html</td>
+        <td>root of an HTML document</td>
+    </tr>
+    <tr>
+        <td><code>head</code></td>
+        <td>head</td>
+        <td>container for all head elements</td>
+    </tr>
+    <tr>
+        <td><code>body</code></td>
+        <td>body</td>
+        <td>define the document's body</td>
+    </tr>
+    <tr>
+        <td><code>title</code></td>
+        <td>title</td>
+        <td>define the title of the document</td>
+    </tr>
+    <tr>
+        <td><code>meta</code></td>
+        <td>meta</td>
+        <td>provide metadata about the document</td>
     </tr>
 </table>
 
